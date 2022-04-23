@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+
+    --primario: #6834a6;
+    --fuentePrincipal: 'Poppins', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  * img {
+    width: 100%;
+    height: auto;
+  }
+  
+  body {
+    width: 100vw;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: var(--thin);
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+h1 {
+    margin-top: 1rem;
+    font-size: 3.4rem;
+}
+
+/********header**********/
+.header__contenedor {
+    display: grid;
+    background-color: var(--primario);
+}
+@media (min-width: 768px) { 
+    .header__contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: var(--primario);
+    }
+}
+
+.header__texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #FFF;
+    gap: 2rem;
+}
+
+
+.header__botones {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+@media (min-width: 768px) { 
+    .header__botones {
+        margin: 1rem 0 2rem 0;
+    }
+}
+
+
+.header__botones a {
+    background-color: rgb(117, 238, 133);
+    padding: .8rem;
+    border-radius: 1rem;
+    transition:.3s;  
+    font-weight: 600;
+}
+
+.header__botones a:hover {
+    background-color: #FFF;
+}
+
+p {
+    margin: 0 2rem 2rem 2rem ;
+}
+@media (min-width: 768px) { 
+    p {
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width: 500px) { 
+    h2 {
+        margin-bottom: 1rem;
+    }
+}
+/**********************Seccion Nosotros***********/
+.nosotros__texto {
+    text-align: center;
+}
+@media (min-width: 768px) { 
+    .nosotros__texto {
+        text-align: center;
+        margin: 0 20rem;
+    }
+}
+
+.nosotros__texto h1 {
+    margin: 2.5rem 0;
+}
+@media (max-width: 768px) { 
+   .nosotros__texto h1 {
+       font-size: 2rem;
+   }
+}
+
+.nosotros__texto p {
+    margin-bottom: 2rem;
+}
+
+.nosotros__botones a:hover {
+    background-color:var(--primario);
+    color: #FFF;
+}
+
+        
