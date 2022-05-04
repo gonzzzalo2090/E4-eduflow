@@ -40,6 +40,10 @@ h1 {
     width: 90%;
 }
 
+.zoom-header {
+    zoom: 115%;
+}
+
 /********header**********/
 .header__contenedor {
     display: grid;
@@ -133,7 +137,7 @@ p {
 
 /**************Nuestras-Ventajas**************/
 .ventajas {
-    margin: 3rem 0;
+    margin: 4rem 0;
 }
 
 .ventajas__titulo {
@@ -142,6 +146,12 @@ p {
     color: #FFF;
     padding-bottom:.7rem;
 }
+@media (max-width: 450px) { 
+    .ventajas__titulo h1 {
+        font-size: 2.3rem;
+    }
+}
+
 
 .ventajas__beneficios { 
     display: flex;
@@ -152,11 +162,29 @@ p {
     background-color:rgb(148, 238, 148);
     padding: 2.1rem;
 }
+@media (max-width: 450px) { 
+    .ventajas__beneficios {
+        flex-direction: column;
+        gap: 2rem;
+        padding:0;
+    }
+}
+@media (max-width: 450px) { 
+    .ventajas__beneficios p {
+        display:none;
+    }
+}
+
+
 
 i { 
     font-size:3.5rem;
     margin-bottom: 1rem;
 }
+@media (max-width: 450px) { 
+    i {margin-top: 1rem;}
+}
+
 
 .ventajas__beneficio-1 i {
     margin-bottom: 0rem;
@@ -172,12 +200,26 @@ i {
     text-align: center;
     margin:2rem;
 }
+@media (max-width: 450px) { 
+    .como-trabajamos__titulo h1 { 
+        font-size:1.6rem;
+        width: auto;
+        margin:-43px;
+    }
+}
 
 .como-trabajamos__numeros {
     display: flex;
     text-align: center;
     margin:3rem;
     gap: 2rem;
+}
+@media (max-width: 450px) { 
+    .como-trabajamos__numeros {
+        flex-direction: column;
+        gap: 0;
+    }
+    
 }
 
 .como-trabajamos__contenido {
@@ -198,6 +240,18 @@ i {
     color: #ffffff;
     margin-bottom: 1rem;
     font-weight: 900;
+}
+@media (max-width: 450px) { 
+    .como-trabajamos__contenido h1{ 
+        width: 4rem;
+        height:4rem;
+        font-size: 2rem;
+    }   
+}
+@media (max-width: 450px) { 
+    .como-trabajamos__contenido h3{ 
+        font-size: 1rem;
+    }   
 }
 
 .como-trabajamos__contenido h1:hover{ 
