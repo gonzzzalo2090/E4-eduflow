@@ -34,6 +34,12 @@ h1 {
     font-size: 3.4rem;
 }
 
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
 /********header**********/
 .header__contenedor {
     display: grid;
@@ -125,4 +131,76 @@ p {
     color: #FFF;
 }
 
-        
+/**************Nuestras-Ventajas**************/
+.ventajas {
+    margin: 3rem 0;
+}
+
+.ventajas__titulo {
+    text-align: center;
+    background-color:var(--primario);
+    color: #FFF;
+    padding-bottom:.7rem;
+}
+
+.ventajas__beneficios { 
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-size:.8rem;
+    line-height: 1.4;
+    background-color:rgb(148, 238, 148);
+    padding: 2.1rem;
+}
+
+i { 
+    font-size:3.5rem;
+    margin-bottom: 1rem;
+}
+
+.ventajas__beneficio-1 i {
+    margin-bottom: 0rem;
+    font-size:4.5rem;
+}
+.ventajas__beneficios i:hover {
+    transform: scale(1.4);
+    transition: all 0.4s ease;
+}
+
+/*********COMO TRABAJAMOS****************/ 
+.como-trabajamos__titulo { 
+    text-align: center;
+    margin:2rem;
+}
+
+.como-trabajamos__numeros {
+    display: flex;
+    text-align: center;
+    margin:3rem;
+    gap: 2rem;
+}
+
+.como-trabajamos__contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+}
+
+.como-trabajamos__contenido h1{ 
+    display: flex;
+    width: 7rem;
+    height:7rem;
+    border-radius: 100%;
+    background-color: rgb(156, 69, 214);
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+.como-trabajamos__contenido h1:hover{ 
+    background-color:rgb(148, 238, 148);
+    transition:.5s;
+}
