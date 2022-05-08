@@ -122,9 +122,16 @@ p {
 @media (min-width: 768px) { 
     .nosotros__texto {
         text-align: center;
+        margin: 0 5rem;
+    }
+}
+@media (min-width: 1000px) { 
+    .nosotros__texto {
+        text-align: center;
         margin: 0 20rem;
     }
 }
+
 
 .nosotros__texto h1 {
     margin: 2.5rem 0;
@@ -209,7 +216,7 @@ i {
     text-align: center;
     margin:2rem;
 }
-@media (max-width: 450px) { 
+@media (max-width: 700px) { 
     .como-trabajamos__titulo h1 { 
         font-size:1.6rem;
         width: auto;
@@ -223,7 +230,7 @@ i {
     margin:3rem;
     gap: 2rem;
 }
-@media (max-width: 450px) { 
+@media (max-width: 700px) { 
     .como-trabajamos__numeros {
         flex-direction: column;
         gap: 0;
@@ -250,14 +257,14 @@ i {
     margin-bottom: 1rem;
     font-weight: 900;
 }
-@media (max-width: 450px) { 
+@media (max-width: 700px) { 
     .como-trabajamos__contenido h1{ 
         width: 4rem;
         height:4rem;
         font-size: 2rem;
     }   
 }
-@media (max-width: 450px) { 
+@media (max-width: 700px) { 
     .como-trabajamos__contenido h3{ 
         font-size: 1rem;
     }   
@@ -337,7 +344,7 @@ i {
 .proyectos-realizados__cards h3 {
     margin:1.2rem
 }
-@media (max-width: 1120px) { 
+@media (max-width: 1195px) { 
     .proyectos-realizados__cards {
         margin-top: 8rem;
     }
